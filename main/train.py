@@ -179,6 +179,7 @@ class Tester(object):
 
 if __name__ == "__main__":
 
+    print("sys.argv[1:]: ",sys.argv[1:])
     (task, dataset, radius, dim, layer_hidden, layer_output,
      batch_train, batch_test, lr, lr_decay, decay_interval, iteration,
      setting) = sys.argv[1:]
